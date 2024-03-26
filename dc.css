@@ -1,0 +1,152 @@
+*{
+    background-color: rgb(228, 200, 148);
+}
+.ph img{
+    width: 5%;
+}
+
+.ph ul{
+
+    list-style: none;
+    padding-left: 5;
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 1%;
+}
+.ph ul li 
+{
+  height: 10%;;
+    float:left;
+    padding: 10px;
+    display: inline-block;
+}
+.ph ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.ph ul li a span
+{
+    color:brown;
+}
+.dv img
+{
+    width: 100%;
+}
+.ar {
+    background-color:burlywood; 
+    padding: 1px;
+    display: flex;
+    justify-content: space-between; 
+
+}
+.ar p
+{
+background-color:burlywood;
+margin-left: 3%;
+}
+
+button {
+    margin-right: 2%;
+    background-color:rgb(222, 150, 61); 
+   
+    border-radius: 4px;
+}
+
+ .art
+{
+    display: flex;
+    align-items: center;
+}
+.art img 
+{
+    margin-left: 0%;
+    width: 30px;
+    height: 30px;
+}
+.art span
+{
+    margin-left: 5px;
+}
+
+
+.cn {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .lm {
+    width: 60%;
+  }
+  
+  .ap {
+    width: 40%;
+    float: right;
+    background-color: rgb(226, 209, 108);
+  }
+  .ap p{
+    background-color: rgb(226, 209, 108);
+    margin-left: 12%;
+  }
+  .ap img
+  {
+    margin-left: 12%;
+    background-color: rgb(226, 209, 108);
+  }
+.ap ul {
+    list-style: none;
+    float: right;
+    margin-right: 50%;
+    background-color: rgb(226, 209, 108);
+  }
+  .ap ul li 
+  {
+    display: inline-block;
+    height: 10px;
+    background-color: rgb(226, 209, 108);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .sc {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .img-container {
+    display: flex;
+  }
+  
+  .img-container img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  .container {
+    display: flex;
+  }
+  
+  .vr {
+    list-style-type: none;
+  }
+  .vr
+  {
+    list-style:circle;
+  }
+  
+  .hz {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  .hz
+  {
+    list-style:georgian;
+  }
+  
+  .hz li {
+    margin-right: 10px;
+  }
